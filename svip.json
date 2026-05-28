@@ -460,8 +460,7 @@
                 "deviceId": "",
                 "version": "119"
             }
-        },
-        {
+    {
             "key": "哔哩视频",
             "name": "哔哩｜视频",
             "type": 3,
@@ -474,11 +473,10 @@
                 "type": "rect",
                 "ratio": 1.433
             },
-            "ext": {
-                "json": "./lib/哔哩视频.json",
-                "jar": ""https://nos.netease.com/ysf/50059c222b1264907b612ae07d04b9cf.txt;md5;97d788866a626c470cbcf7698dc08900t"
-            }
-        },
+   "jar": "https://nos.netease.com/ysf/50059c222b1264907b612ae07d04b9cf.txt;md5;97d788866a626c470cbcf7698dc08900t",
+    "ext":"./lib/哔哩视频.json"
+              },
+
         {
             "key": "哔哩集合",
             "name": "哔哩｜集合",
@@ -492,29 +490,13 @@
                 "type": "rect",
                 "ratio": 1.433
             },
+ "jar": "https://nos.netease.com/ysf/50059c222b1264907b612ae07d04b9cf.txt;md5;97d788866a626c470cbcf7698dc08900",
             "ext": {
-                "json": "./lib/哔哩集合.json",
-                "jar": ""https://nos.netease.com/ysf/50059c222b1264907b612ae07d04b9cf.txt;md5;97d788866a626c470cbcf7698dc08900"
+                "json": "./lib/哔哩集合.json"
+               
             }
         },
-        {
-            "key": "哔哩合集",
-            "name": "哔哩｜合集",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            },
-            "ext": {
-                "json": "./lib/哔哩合集.json",
-                "jar": "https://nos.netease.com/ysf/50059c222b1264907b612ae07d04b9cf.txt;md5;97d788866a626c470cbcf7698dc08900"
-            }
-        },
+
        
         {
             "key": "哔哩哔哩演唱会",
@@ -524,15 +506,17 @@
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": {
-                "jar": ""https://nos.netease.com/ysf/50059c222b1264907b612ae07d04b9cf.txt;md5;97d788866a626c470cbcf7698dc08900",
-                "json": "./lib/哔哩哔哩演唱会.json"
-            },
-            "style": {
+ "style": {
                 "type": "rect",
                 "ratio": 1.597
+             },
+              "jar": "https://nos.netease.com/ysf/50059c222b1264907b612ae07d04b9cf.txt;md5;97d788866a626c470cbcf7698dc08900",
+"ext":{
+    "json": "./lib/哔哩哔哩演唱会.json"
             }
-        },
+           
+            },
+    
         {
             "key": "SVIP短剧",
             "name": "SVIP｜短剧",
